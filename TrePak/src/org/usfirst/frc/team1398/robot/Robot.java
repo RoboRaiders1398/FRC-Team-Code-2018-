@@ -99,7 +99,7 @@ public class Robot extends IterativeRobot {
 	 */
 	@Override
 	public void teleopPeriodic() {
-		speedRacer.driveCartesian(sunnyD.getX(),sunnyD.getY(),sunnyD.getZ(),0.0); 
+		speedRacer.driveCartesian(sunnyD.getX(), sunnyD.getY(), sunnyD.getZ(), 0.0); 
 		
 	}
 
